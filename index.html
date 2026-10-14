@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src https:; media-src https:; frame-src https://www.youtube-nocookie.com; connect-src https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+<title>SCOTTY, The King of the Prehistoric World</title>
+<meta name="description" content="SCOTTY, an exceptionally enormous adult Tyrannosaurus rex.">
+<meta name="theme-color" content="#070a1f">
+<link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="scene" aria-hidden="true">
+  <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" focusable="false">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#090d33"/>
+        <stop offset=".45" stop-color="#132468"/>
+        <stop offset=".8" stop-color="#1b3a78"/>
+        <stop offset="1" stop-color="#0d1a3d"/>
+      </linearGradient>
+      <radialGradient id="moon" cx=".5" cy=".5" r=".5">
+        <stop offset="0" stop-color="#8fe6cf" stop-opacity=".5"/>
+        <stop offset=".45" stop-color="#4fb5a8" stop-opacity=".18"/>
+        <stop offset="1" stop-color="#4fb5a8" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#5a7fc0" stop-opacity="0"/>
+        <stop offset=".55" stop-color="#5a7fc0" stop-opacity=".2"/>
+        <stop offset="1" stop-color="#5a7fc0" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#1a0d2e" stop-opacity="0"/>
+        <stop offset="1" stop-color="#0a0616" stop-opacity=".95"/>
+      </linearGradient>
+      <path id="frond" d="M0 0C14-90 70-170 150-200C96-140 52-72 30 0Z"/>
+    </defs>
+
+    <rect width="1600" height="900" fill="url(#sky)"/>
+    <circle cx="900" cy="250" r="440" fill="url(#moon)"/>
+
+    <!-- teal moonlit foliage -->
+    <g fill="#2b8c78" opacity=".4">
+      <ellipse cx="760" cy="150" rx="170" ry="90"/>
+      <ellipse cx="960" cy="110" rx="190" ry="80"/>
+      <ellipse cx="1120" cy="220" rx="140" ry="70"/>
+      <ellipse cx="620" cy="260" rx="120" ry="60"/>
+    </g>
+    <g fill="#1f6f6a" opacity=".55">
+      <ellipse cx="200" cy="140" rx="200" ry="110"/>
+      <ellipse cx="1420" cy="170" rx="210" ry="120"/>
+    </g>
+
+    <!-- distant blue trunks -->
+    <g fill="#10164a" opacity=".85">
+      <polygon points="330,0 380,0 390,900 322,900"/>
+      <polygon points="560,0 610,0 618,900 552,900"/>
+      <polygon points="1180,0 1240,0 1250,900 1172,900"/>
+      <polygon points="1330,0 1370,0 1378,900 1322,900"/>
+    </g>
+    <rect y="260" width="1600" height="640" fill="url(#haze)"/>
+
+    <!-- dark maroon giants with coral edge light -->
+    <g fill="#240c1e">
+      <polygon points="-40,0 250,0 300,900 -40,900"/>
+      <polygon points="1380,0 1660,0 1660,900 1440,900"/>
+    </g>
+    <g fill="#d45a52" opacity=".55">
+      <polygon points="190,0 215,0 262,900 238,900"/>
+      <polygon points="1388,0 1410,0 1452,900 1432,900"/>
+    </g>
+    <g fill="#14081f" opacity=".95">
+      <polygon points="470,0 520,0 540,900 452,900"/>
+      <polygon points="1060,0 1110,0 1130,900 1040,900"/>
+    </g>
+
+    <!-- canopy -->
+    <g fill="#070b26">
+      <ellipse cx="0" cy="0" rx="200" ry="120"/>
+      <ellipse cx="420" cy="0" rx="190" ry="90"/>
+      <ellipse cx="1200" cy="0" rx="190" ry="95"/>
+      <ellipse cx="1600" cy="0" rx="210" ry="130"/>
+    </g>
+
+    <!-- ground glow and undergrowth -->
+    <path fill="#4a1f3a" d="M0 800C200 760 380 790 560 770C760 745 900 800 1100 780C1300 760 1460 790 1600 770V900H0Z"/>
+    <path fill="#c4504c" opacity=".5" d="M380 830C600 800 760 840 980 815C1180 795 1320 835 1500 820V860C1320 870 1180 840 980 860C760 880 600 850 380 870Z"/>
+    <path fill="#5b3a9c" opacity=".55" d="M0 850C180 830 320 860 460 850V900H0Z"/>
+    <rect y="700" width="1600" height="200" fill="url(#floor)"/>
+    <g fill="#2a9d84" opacity=".8">
+      <use href="#frond" transform="translate(30 900) scale(1.5)"/>
+      <use href="#frond" transform="translate(210 900) scale(-1.2 1.2)"/>
+      <use href="#frond" transform="translate(1340 900) scale(1.4)"/>
+      <use href="#frond" transform="translate(1560 900) scale(-1.6 1.5)"/>
+    </g>
+    <g fill="#0f3d4a">
+      <use href="#frond" transform="translate(420 900) scale(1.1)"/>
+      <use href="#frond" transform="translate(1100 900) scale(-1.2 1.2)"/>
+      <use href="#frond" transform="translate(760 900) scale(1)"/>
+    </g>
+  </svg>
+  <div class="mist m1"></div>
+  <div class="mist m2"></div>
+  <div class="vignette"></div>
+</div>
+
+<main>
+  <header class="profile">
+    <figure class="photo" id="photoFrame">
+      <img id="photo"
+           src="https://raw.githubusercontent.com/uuhjeike/SCOTTY-2/main/20261014_154946.jpg"
+           alt="SCOTTY, an enormous adult Tyrannosaurus rex roaring in a night forest"
+           decoding="async" fetchpriority="high" referrerpolicy="no-referrer">
+      <div class="photo-fallback" id="photoFallback" hidden>SCOTTY</div>
+    </figure>
+
+    <h1>SCOTTY</h1>
+    <p class="subtitle">The King of the Prehistoric World</p>
+    <p class="species">Tyrannosaurus rex, an exceptionally enormous adult</p>
+
+    <div class="count" role="status" aria-live="polite">
+      <strong id="countMain">Loading posts</strong>
+      <span id="countNote" class="count-note"></span>
+      <button type="button" id="retry" class="retry" hidden>Retry</button>
+    </div>
+  </header>
+
+  <section class="feed-wrap" aria-labelledby="feedTitle">
+    <h2 id="feedTitle" class="sr-only">Posts by SCOTTY, newest first</h2>
+    <div id="feed"></div>
+    <div id="skeletons" aria-hidden="true">
+      <div class="card skel"></div>
+      <div class="card skel"></div>
+      <div class="card skel"></div>
+    </div>
+    <p id="empty" class="empty" hidden></p>
+    <div id="sentinel" class="sentinel" hidden></div>
+  </section>
+</main>
+
+<noscript><p class="noscript">SCOTTY needs JavaScript to load its posts.</p></noscript>
+</body>
+</html>
